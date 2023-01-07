@@ -1,0 +1,228 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@400;600;800&family=Seymour+One&display=swap');
+
+/* Common Style */
+* {
+  margin: 0;
+  padding: 0;
+  font-family: 'Rubik', sans-serif;
+}
+
+h1,
+h3 {
+  font-family: 'Seymour One', sans-serif;
+  color: #222831;
+}
+
+h2 {
+  font-size: 30px;
+  color: #222831;
+  font-family: 'Seymour One', sans-serif;
+}
+
+/* Common Style */
+
+/* Header Section */
+header {
+  width: 100%;
+  height: 95vh;
+  background: url(../img/banner.jpg) no-repeat;
+  background-size: cover;
+  display: flex;
+  justify-content: end;
+  align-items: center;
+}
+
+header .contener {
+  width: 40%;
+  text-align: right;
+  margin-right: 200px;
+}
+
+.headerTitel {
+  font-size: 50px;
+  color: #222831;
+}
+
+.headerParagraph {
+  font-size: 16px;
+  margin: 24px 0;
+  color: #393e46;
+}
+
+.headerBtn {
+  padding: 3%;
+  font-size: 20px;
+  font-weight: 800;
+  border: 0;
+  border-radius: 20px 0;
+  background-color: #00adb5;
+  color: #fff;
+}
+
+/* Header Section */
+
+/* Previous Year Section */
+.contact{
+  width: 70%;
+  margin: -130px auto 10px;
+  padding: 45px;
+  border-radius: 20px;
+  background-color: #00ADB5;
+  color: rgb(255, 255, 255);
+  display: flex;
+  gap: 5rem;
+}
+.contact>p{
+  margin: auto;
+}
+.num{
+  padding-right: 32px;
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  border-right: 3px solid rgb(61, 61, 61);
+}
+.num i{
+  font-size: 50px;
+}
+.numItem{
+  font-size: 20px;
+}
+#previousYear {
+  margin: 0 auto;
+  padding: 50px 150px;
+  background-color: #eeeeee;
+}
+
+#previousYear .contener {
+  width: 100%;
+  padding-left: 100px;
+  margin: 0 auto;
+  display: flex;
+}
+
+.yearContent {
+  margin: auto;
+}
+
+.previousYearParagraph {
+  margin: 24px 0;
+  color: #393e46;
+}
+
+.previousYearList {
+  list-style: none;
+}
+
+.previousYearListItem {
+  color: #393e46;
+  margin-bottom: 5px;
+}
+
+.previousYearListItem i {
+  color: #00adb5;
+  margin-right: 10px;
+}
+
+/* Previous Year Section */
+
+/* Plan Section */
+#plans {
+  padding: 10px 150px;
+  background: url(../img/plansBG.jpg) no-repeat center;
+  background-size: cover;
+}
+
+#plans .contener {
+  margin: 50px auto;
+  text-align: center;
+}
+
+.plan {
+  margin-top: 60px;
+  display: flex;
+  gap: 10%;
+  justify-content: center;
+}
+
+.planItem h3 {
+  margin: 15px 0;
+}
+
+/* Plan Section */
+
+/* Banner Section */
+#banner {
+  padding: 5%;
+  background-color: #eeeeee;
+}
+
+#banner .contener {
+  width: 80%;
+  margin: 0 auto;
+  padding: 5%;
+  background: linear-gradient(to right, #00adb5, #ffffff00), url(../img/watch.png) no-repeat center;
+  background-size: cover;
+  border-radius: 10px;
+}
+
+#banner .contener p {
+  font-size: 40px;
+  font-weight: 800;
+  color: #eeeeee;
+}
+
+#banner .contener button {
+  margin-top: 24px;
+  padding: 20px 36px;
+  font-size: 20px;
+  font-weight: 600;
+  border: 0;
+  border-radius: 0 20px;
+  background: #393e46de;
+  color: #00f2ff;
+}
+
+/* Banner Section */
+
+/* Footer Section */
+footer {
+  padding: 5% 10%;
+  background-color: #222831;
+}
+
+footer .contener {
+  display: flex;
+  justify-content: space-around;
+}
+
+.future h2 {
+  color: #eeeeee;
+}
+.future p{
+  color: #eeeeee;
+  margin: 25px 0;
+}
+.socialIcon img{
+  margin: 0 5px;
+  width: 8%;
+}
+.subscribe h3{
+  color: #eeeeee;
+  margin-bottom: 25px;
+}
+.subscribe input{
+  width: 350px;
+  padding: 10px;
+  font-size: 20px;
+}
+.subscribe button{
+  padding: 3%;
+  font-size: 20px;
+  font-weight: 800;
+  border: 0;
+  border-radius: 20px 0;
+  background-color: #00adb5;
+  color: #fff;
+}
+/* Footer Section */
